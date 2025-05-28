@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports = {
-  BACKEND_PORT: process.env.BACKEND_PORT || 3001,
+  BACKEND_PORT: process.env.BACKEND_PORT,
   development: {
     username: 'sql12781655',
     password: 'nybcSU9CZu',
